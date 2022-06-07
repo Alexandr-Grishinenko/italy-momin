@@ -1,0 +1,6 @@
+.header__menu {
+  display: grid;
+  grid-template-columns: repeat(4, max-content);
+  column-gap: 10px;
+  margin-right: 10px;
+}

@@ -1,0 +1,19 @@
+.footer__soc-networks-list-item {
+  position: relative;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #2B6BB2;
+}
+
+/* .footer__soc-networks-list-item::after {
+  content: "";
+  position: absolute;
+  background-image: url('../../../images/arrow.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 16px;
+  height: 16px;
+
+} */

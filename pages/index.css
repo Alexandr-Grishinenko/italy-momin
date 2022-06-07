@@ -1,0 +1,36 @@
+@import url(../vendor/normalize.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__menu-item/header__menu-item.css);
+@import url(../blocks/section/section.css);
+@import url(../blocks/momin/momin.css);
+@import url(../blocks/section/__bg/section__bg_1.css);
+@import url(../blocks/momin/__text-center/momin__text-center.css);
+@import url(../blocks/momin/__paragraph-center/momin__paragraph-center.css);
+@import url(../blocks/momin/__paragraph-center/_top/momin__paragraph-center_top.css);
+@import url(../blocks/momin/__paragraph-center/_bottom/momin__paragraph-center_bottom.css);
+@import url(../blocks/blue-line-block/blue-line-block.css);
+@import url(../blocks/momin-in-red/__content/momin-in-red__content.css);
+@import url(../blocks/momin-in-red/__content-section/momin-in-red__content-section.css);
+@import url(../blocks/momin-in-red/__content-title/momin-in-red__content-title.css);
+@import url(../blocks/momin-in-red/__content-grid/momin-in-red__content-grid.css);
+@import url(../blocks/momin-in-red/__content-grid-item/momin-in-red__content-grid-item.css);
+@import url(../blocks/momin-in-red/__content-grid-img/momin-in-red__content-grid-img.css);
+@import url(../blocks/momin-in-red/__content-grid-text/momin-in-red__content-grid-text.css);
+
+@import url(../blocks/connect-with-us/connect-with-us.css);
+@import url(../blocks/connect-with-us/__link/connect-with-us__link.css);
+
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__contacts/footer__contacts.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__p-call-center-descr/footer__p-call-center-descr.css);
+@import url(../blocks/footer/__p-call-center-title/footer__p-call-center-title.css);
+@import url(../blocks/footer/__soc-networks-list-item/footer__soc-networks-list-item.css);
+@import url(../blocks/footer/__soc-networks-list/footer__soc-networks-list.css);
+@import url(../blocks/footer/__tel-number/footer__tel-number.css);
+@import url(../blocks/footer/__tel-number/_wa/footer__tel-number_wa.css);
+@import url(../blocks/footer/__soc-networks-link/footer__soc-networks-link.css);
+@import url(../blocks/footer/__copyright-paragraph/footer__copyright-paragraph.css);

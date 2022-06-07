@@ -1,0 +1,12 @@
+.footer__tel-number_wa {
+  position: relative;
+  width: max-content;
+}
+
+.footer__tel-number_wa::after {
+  content: url(../../../../images/wa-icon.svg);
+  /* background-image: url(../../../../images/wa-icon.svg); */
+  position: absolute;
+  width: 30px;
+  height: 30px;
+}

@@ -1,0 +1,10 @@
+.footer__soc-networks-list {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 32px;
+  display: grid;
+  grid-template-columns: repeat(4, max-content);
+  column-gap: 28px;
+  list-style-type: none;
+
+}

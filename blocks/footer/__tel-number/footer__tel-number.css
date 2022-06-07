@@ -1,0 +1,15 @@
+.footer__tel-number {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 30px;
+  color: #04162C;
+  display: block;
+  text-decoration: none;
+  margin: 0;
+  margin-bottom: 6px;
+}
+
+.footer__tel-number:hover {
+  text-decoration: underline;
+}

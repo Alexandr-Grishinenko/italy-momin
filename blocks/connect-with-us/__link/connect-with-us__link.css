@@ -1,0 +1,11 @@
+.connect-with-us__link {
+  color: #2B6BB2;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  padding: 3px 16px;
+  background-color: #fff;
+  border-radius: 100px;
+}

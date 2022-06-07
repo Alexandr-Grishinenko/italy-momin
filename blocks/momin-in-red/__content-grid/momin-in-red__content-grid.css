@@ -1,0 +1,8 @@
+.momin-in-red__content-grid {
+  display: grid;
+  grid-template-columns: repeat(4, min-content);
+  justify-content: space-between;
+  width: 100%;
+  column-gap: 30px;
+  row-gap: 10px;
+}

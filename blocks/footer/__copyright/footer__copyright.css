@@ -1,0 +1,12 @@
+.footer__copyright {
+  margin: 0 16px 24px;
+  padding-top: 32px;
+  padding-bottom: 12px;
+  border-top: 1px solid rgba(4, 22, 44, 0.2);
+}
+
+@media screen and (max-width: 900px) {
+  .footer__copyright {
+    display: none;
+  }
+}

@@ -1,0 +1,23 @@
+.footer__soc-networks-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #2B6BB2;
+  text-decoration: none;
+}
+
+.footer__soc-networks-link:hover {
+  text-decoration: underline;
+}
+
+.footer__soc-networks-link::after {
+  content: "";
+  position: absolute;
+  background-image: url('../../../images/arrow.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 16px;
+  height: 16px;
+
+}
