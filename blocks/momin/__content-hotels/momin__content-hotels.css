@@ -1,0 +1,19 @@
+.momin__content-hotels {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 10px;
+  /* or 100% */
+
+  text-align: center;
+  width: 100%;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding: 6% 0; */
+  margin: 0 0 8px;
+  color: #FFFFFF;
+  background-size: 100%, contain;
+  background-repeat: no-repeat;
+}

@@ -3,4 +3,14 @@
   line-height: 7px;
   text-decoration: none;
   color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.header__menu-item:last-of-type {
+  padding: 2px 5px;
+  border-radius: 100px;
+  background: #fff;
+  color: #2B6BB2;
+  font-weight: 500;
 }

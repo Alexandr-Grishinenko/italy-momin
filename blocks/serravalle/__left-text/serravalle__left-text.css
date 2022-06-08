@@ -1,0 +1,7 @@
+.serravalle__left-text {
+  display: flex;
+  flex-direction: column;
+
+  padding: 0 0 0 27px;
+  width: 56.5%;
+}

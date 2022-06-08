@@ -6,7 +6,10 @@
   /* or 100% */
 
   text-align: center;
-
+  display: flex;
+  align-items: center;
+  height: 100%;
   color: #FFFFFF;
   margin: 0;
+  /* width: min-content; */
 }

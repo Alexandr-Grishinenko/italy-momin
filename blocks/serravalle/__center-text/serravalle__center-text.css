@@ -1,0 +1,14 @@
+.serravalle__center-text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 6px;
+  line-height: 6px;
+  /* or 100% */
+  text-align: center;
+  color: #FFFFFF;
+  margin: 0 auto;
+}
+
+.serravalle__center-text:last-of-type {
+  margin-bottom: 45px;
+}

@@ -1,0 +1,10 @@
+.momin__content-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+  width: 100%;
+  /* column-gap: 30px; */
+  row-gap: 13px;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 30px;
+}

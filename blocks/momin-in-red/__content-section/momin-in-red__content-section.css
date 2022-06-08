@@ -1,6 +1,11 @@
 .momin-in-red__content-section {
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 92%;
+}
+
+.momin-in-red__content-section:last-of-type {
+  margin-bottom: 30px;
 }

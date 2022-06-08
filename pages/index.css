@@ -1,8 +1,10 @@
 @import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/header/__menu/header__menu.css);
 @import url(../blocks/header/__menu-item/header__menu-item.css);
+@import url(../blocks/content/content.css);
 @import url(../blocks/section/section.css);
 @import url(../blocks/momin/momin.css);
 @import url(../blocks/section/__bg/section__bg_1.css);
@@ -10,6 +12,24 @@
 @import url(../blocks/momin/__paragraph-center/momin__paragraph-center.css);
 @import url(../blocks/momin/__paragraph-center/_top/momin__paragraph-center_top.css);
 @import url(../blocks/momin/__paragraph-center/_bottom/momin__paragraph-center_bottom.css);
+@import url(../blocks/momin/__content/momin__content.css);
+@import url(../blocks/momin/__content-section/momin__content-section.css);
+@import url(../blocks/momin/__content-title-top/momin__content-title-top.css);
+@import url(../blocks/momin/__content-grid/momin__content-grid.css);
+@import url(../blocks/momin/__content-grid-item/momin__content-grid-item.css);
+@import url(../blocks/momin/__content-grid-date/momin__content-grid-date.css);
+@import url(../blocks/momin/__content-grid-text/momin__content-grid-text.css);
+@import url(../blocks/momin/__content-title-bottom/momin__content-title-bottom.css);
+@import url(../blocks/momin/__section-text-bottom/momin__section-text-bottom.css);
+@import url(../blocks/momin/__content-hotels/momin__content-hotels.css);
+@import url(../blocks/momin/__content-hotels/_bg/momin__content-hotels_bg_1.css);
+@import url(../blocks/momin/__content-hotels/_bg/momin__content-hotels_bg_2.css);
+@import url(../blocks/momin/__content-hotels/_bg/momin__content-hotels_bg_3.css);
+@import url(../blocks/arrow/arrow.css);
+@import url(../blocks/arrow/_down/arrow_down.css);
+@import url(../blocks/arrow/_right/arrow_right.css);
+@import url(../blocks/arrow/_left/arrow_left.css);
+
 @import url(../blocks/blue-line-block/blue-line-block.css);
 @import url(../blocks/momin-in-red/__content/momin-in-red__content.css);
 @import url(../blocks/momin-in-red/__content-section/momin-in-red__content-section.css);
@@ -19,8 +39,19 @@
 @import url(../blocks/momin-in-red/__content-grid-img/momin-in-red__content-grid-img.css);
 @import url(../blocks/momin-in-red/__content-grid-text/momin-in-red__content-grid-text.css);
 
+@import url(../blocks/serravalle/__content/serravalle__content.css);
+@import url(../blocks/serravalle/__logo/serravalle__logo.css);
+@import url(../blocks/serravalle/__center-text/serravalle__center-text.css);
+@import url(../blocks/serravalle/__left-text/serravalle__left-text.css);
+@import url(../blocks/serravalle/__left-text/__left-text_blue/serravalle__left-text_blue.css);
+@import url(../blocks/serravalle/__left-text-left/serravalle__left-text-left.css);
+@import url(../blocks/serravalle/__left-text-right/serravalle__left-text-right.css);
+@import url(../blocks/serravalle/__left-text-paragraph/serravalle__left-text-paragraph.css);
+
+
 @import url(../blocks/connect-with-us/connect-with-us.css);
 @import url(../blocks/connect-with-us/__link/connect-with-us__link.css);
+@import url(../blocks/serravalle/__left-text-paragraph-bold/serravalle__left-text-paragraph-bold.css);
 
 
 @import url(../blocks/footer/footer.css);

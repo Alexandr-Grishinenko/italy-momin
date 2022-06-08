@@ -1,6 +1,6 @@
 .momin-in-red__content-title {
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 10px;
   line-height: 12px;
   text-align: center;
@@ -8,6 +8,7 @@
   color: #FFFFFF;
   margin: 0;
   padding: 3px 16px;
+  margin: 0 0 18px;
   width: max-content;
   border: 1px solid #FFFFFF;
   border-radius: 100px;

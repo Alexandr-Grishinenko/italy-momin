@@ -1,0 +1,13 @@
+.momin__content-grid-text {
+
+  font-style: normal;
+  font-weight: 350;
+  font-size: 6px;
+  line-height: 117%;
+  /* or 117% */
+
+  text-align: center;
+  text-transform: capitalize;
+  margin: 0;
+  color: #FFFFFF;
+}

@@ -1,0 +1,18 @@
+.momin__content-grid-date {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 7px;
+  line-height: 8px;
+  /* or 100% */
+
+  text-align: center;
+  display: flex;
+  align-items: center;
+  width: max-content;
+  padding: 2px 11px;
+  margin: 0;
+  margin-bottom: 4px;
+  background-color: #fff;
+  border-radius: 100px;
+  color: #2B6BB2;
+}
