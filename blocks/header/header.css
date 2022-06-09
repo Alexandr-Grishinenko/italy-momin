@@ -1,6 +1,6 @@
 .header {
   background-color: #2B6BB2;
-  height: 42px;
+  height: 13vh;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -8,3 +8,9 @@
   font-family: 'GT Eesti Pro Display', Arial, Helvetica, sans-serif;
 
 }
+
+/* @media screen and (min-width:1439px) {
+  .header {
+    height: 162px;
+  }
+} */
