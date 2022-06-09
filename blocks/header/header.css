@@ -1,6 +1,6 @@
 .header {
   background-color: #2B6BB2;
-  height: 13vh;
+  height: 5vh;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -9,8 +9,20 @@
 
 }
 
-/* @media screen and (min-width:1439px) {
+@media screen and (min-width:767px) {
   .header {
-    height: 162px;
+    height: 8vh;
   }
-} */
+}
+
+@media screen and (min-width:1024px) {
+  .header {
+    height: 10vh;
+  }
+}
+
+@media screen and (min-width:1439px) {
+  .header {
+    height: 13vh;
+  }
+}

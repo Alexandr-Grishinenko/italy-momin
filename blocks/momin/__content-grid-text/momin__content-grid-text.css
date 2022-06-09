@@ -1,13 +1,40 @@
 .momin__content-grid-text {
 
   font-style: normal;
-  font-weight: 350;
+  font-weight: 300;
   font-size: 6px;
   line-height: 117%;
   /* or 117% */
 
   text-align: center;
-  text-transform: capitalize;
   margin: 0;
   color: #FFFFFF;
+}
+
+@media screen and (min-width:425px) {
+  .momin__content-grid-text {
+    font-size: calc(6px + 0.5vw);
+    /* line-height: calc(20px + 1vw); */
+  }
+}
+
+@media screen and (min-width:768px) {
+  .momin__content-grid-text {
+    font-size: calc(12px + 1vw);
+    /* line-height: calc(30px + 1vw); */
+  }
+}
+
+@media screen and (width:1440px) {
+  .momin__content-grid-text {
+    font-size: 25px;
+    /* line-height: 81px; */
+  }
+}
+
+@media screen and (min-width:1441px) {
+  .momin__content-grid-text {
+    font-size: calc(25px + 0.5vw);
+    /* line-height: calc(81px + 1vw); */
+  }
 }

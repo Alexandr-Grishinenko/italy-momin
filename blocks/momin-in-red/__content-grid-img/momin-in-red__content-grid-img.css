@@ -1,3 +1,28 @@
 .momin-in-red__content-grid-img {
   margin-bottom: 3px;
+  width: 31%;
+}
+
+@media screen and (min-width:425px) {
+  .momin-in-red__content-grid-img {
+    margin-bottom: 4px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .momin-in-red__content-grid-img {
+    margin-bottom: 7px;
+  }
+}
+
+@media screen and (width:1440px) {
+  .momin-in-red__content-grid-img {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width:1441px) {
+  .momin-in-red__content-grid-img {
+    margin-bottom: 10px;
+  }
 }

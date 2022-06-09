@@ -4,3 +4,31 @@
   column-gap: 10px;
   margin-right: 10px;
 }
+
+@media screen and (min-width:425px) {
+  .header__menu {
+    column-gap: calc(10px+1vw);
+    margin-right: calc(10px+1vw);
+  }
+}
+
+@media screen and (min-width:767px) {
+  .header__menu {
+    column-gap: calc(15px + 1vw);
+    margin-right: calc(15px + 1vw);
+  }
+}
+
+@media screen and (width:1440px) {
+  .header__menu {
+    column-gap: 32px;
+    margin-right: 40px;
+  }
+}
+
+@media screen and (min-width:1441px) {
+  .header__menu {
+    column-gap: calc(32px + 1vw);
+    margin-right: calc(40px + 1vw);
+  }
+}

@@ -2,7 +2,7 @@
   font-style: normal;
   font-weight: 500;
   font-size: 65px;
-  line-height: 18px;
+  line-height: 65px;
   /* or 28% */
 
   display: flex;
@@ -11,4 +11,34 @@
   text-transform: lowercase;
 
   color: #FFFFFF;
+}
+
+@media screen and (min-width:425px) {
+  .momin__content-title-top {
+    font-size: calc(65px + 0.5vw);
+    line-height: calc(65px + 0.5vw);
+    margin-bottom: 11px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .momin__content-title-top {
+    font-size: calc(80px + 1vw);
+    line-height: calc(80px + 1vw);
+    margin-bottom: 14px;
+  }
+}
+
+@media screen and (min-width:1367px) {
+  .serravalle__left-text-right {
+    font-size: 110px;
+    line-height: 110px;
+  }
+}
+
+@media screen and (min-width:1440px) {
+  .serravalle__left-text-right {
+    font-size: 200px;
+    line-height: 200px;
+  }
 }

@@ -5,3 +5,31 @@
   padding: 0 0 0 27px;
   width: 56.5%;
 }
+
+@media screen and (min-width:425px) {
+  .serravalle__left-text {
+    width: 56.5%;
+    /* padding-left: 148px; */
+  }
+}
+
+@media screen and (min-width:768px) {
+  .serravalle__left-text {
+    /* width: 59.5%; */
+    padding-left: 70px;
+  }
+}
+
+@media screen and (width:1440px) {
+  .serravalle__left-text {
+    /* width: 61.5%; */
+    padding-left: 148px;
+  }
+}
+
+@media screen and (min-width:1441px) {
+  .serravalle__left-text {
+    /* width: 61.5%; */
+    padding-left: 148px;
+  }
+}

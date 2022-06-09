@@ -4,3 +4,32 @@
   line-height: 6px;
   margin: 0;
 }
+
+@media screen and (min-width:425px) {
+  .momin__paragraph-center_bottom {
+    font-size: calc(6px + 1vw);
+    line-height: calc(6px + 1vw);
+  }
+}
+
+@media screen and (min-width:768px) {
+  .momin__paragraph-center_bottom {
+    font-size: calc(12px + 1vw);
+    line-height: calc(12px + 1vw);
+    margin-bottom: 8px;
+  }
+}
+
+@media screen and (width:1440px) {
+  .momin__paragraph-center_bottom {
+    font-size: 21px;
+    line-height: 21px;
+  }
+}
+
+@media screen and (min-width:1441px) {
+  .momin__paragraph-center_bottom {
+    font-size: calc(21px + 0.5vw);
+    line-height: calc(21px + 1vw);
+  }
+}

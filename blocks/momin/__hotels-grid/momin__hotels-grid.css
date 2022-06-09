@@ -1,0 +1,30 @@
+.momin__hotels-grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 8px;
+}
+
+@media screen and (min-width:425px) {
+  .momin__hotels-grid {
+    row-gap: calc(8px + 0.5vw);
+  }
+}
+
+@media screen and (min-width:768px) {
+  .momin__hotels-grid {
+    row-gap: calc(15px + 0.5vw);
+  }
+}
+
+@media screen and (width:1440px) {
+  .momin__hotels-grid {
+    row-gap: 30px;
+  }
+}
+
+@media screen and (min-width:1441px) {
+  .momin__hotels-grid {
+    row-gap: 30px;
+  }
+}

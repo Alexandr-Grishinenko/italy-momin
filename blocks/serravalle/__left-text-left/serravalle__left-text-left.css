@@ -1,5 +1,12 @@
 .serravalle__left-text-left {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+  /* width: 66%; */
+}
+
+@media screen and (min-width:1440px) {
+  .serravalle__left-text-left {
+    width: 66%;
+  }
 }

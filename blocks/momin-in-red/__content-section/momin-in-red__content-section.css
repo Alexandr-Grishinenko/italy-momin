@@ -9,3 +9,39 @@
 .momin-in-red__content-section:last-of-type {
   margin-bottom: 30px;
 }
+
+@media screen and (min-width:425px) {
+  .momin-in-red__content-section {
+    margin-bottom: calc(20px + 0.5vw);
+  }
+  .momin-in-red__content-section:last-of-type {
+    margin-bottom: calc(30px + 0.5vw);
+  }
+}
+
+@media screen and (min-width:768px) {
+  .momin-in-red__content-section {
+    margin-bottom: calc(40px + 0.5vw);
+  }
+  .momin-in-red__content-section:last-of-type {
+    margin-bottom: calc(50px + 0.5vw);
+  }
+}
+
+@media screen and (width:1440px) {
+  .momin-in-red__content-section {
+    margin-bottom: 110px;
+  }
+  .momin-in-red__content-section:last-of-type {
+    margin-bottom: 127px;
+  }
+}
+
+@media screen and (min-width:1441px) {
+  .momin-in-red__content-section {
+    margin-bottom: 110px;
+  }
+  .momin-in-red__content-section:last-of-type {
+    margin-bottom: 127px;
+  }
+}

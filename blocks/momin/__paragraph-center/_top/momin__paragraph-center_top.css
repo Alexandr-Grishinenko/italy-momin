@@ -7,3 +7,35 @@
   margin: 0;
   margin-bottom: 3px;
 }
+
+@media screen and (min-width:425px) {
+  .momin__paragraph-center_top {
+    font-size: calc(10px + 1vw);
+    line-height: calc(10px + 1vw);
+    margin-bottom: 5px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .momin__paragraph-center_top {
+    font-size: calc(20px + 1vw);
+    line-height: calc(20px + 1vw);
+    margin-bottom: 8px;
+  }
+}
+
+@media screen and (width:1440px) {
+  .momin__paragraph-center_top {
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 12px;
+  }
+}
+
+@media screen and (min-width:1441px) {
+  .momin__paragraph-center_top {
+    font-size: calc(40px + 1vw);
+    line-height: calc(40px + 1vw);
+    margin-bottom: 12px;
+  }
+}

@@ -8,6 +8,8 @@
 @import url(../blocks/section/section.css);
 @import url(../blocks/momin/momin.css);
 @import url(../blocks/section/__bg/section__bg_1.css);
+@import url(../blocks/section/__bg/section__bg_desk.css);
+@import url(../blocks/section/__bg/section__bg_mob.css);
 @import url(../blocks/momin/__text-center/momin__text-center.css);
 @import url(../blocks/momin/__paragraph-center/momin__paragraph-center.css);
 @import url(../blocks/momin/__paragraph-center/_top/momin__paragraph-center_top.css);
@@ -22,6 +24,10 @@
 @import url(../blocks/momin/__content-title-bottom/momin__content-title-bottom.css);
 @import url(../blocks/momin/__section-text-bottom/momin__section-text-bottom.css);
 @import url(../blocks/momin/__content-hotels/momin__content-hotels.css);
+@import url(../blocks/momin/__hotels-grid/momin__hotels-grid.css);
+@import url(../blocks/momin/__hotels-grid-item/momin__hotels-grid-item.css);
+@import url(../blocks/momin/__hotels-grid-img/momin__hotels-grid-img.css);
+
 @import url(../blocks/momin/__content-hotels/_bg/momin__content-hotels_bg_1.css);
 @import url(../blocks/momin/__content-hotels/_bg/momin__content-hotels_bg_2.css);
 @import url(../blocks/momin/__content-hotels/_bg/momin__content-hotels_bg_3.css);

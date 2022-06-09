@@ -1,4 +1,29 @@
 .serravalle__logo {
   margin: 22px auto 11px;
-  width: 36.5%;
+  width: 46%;
+}
+
+@media screen and (min-width:425px) {
+  .serravalle__logo {
+    margin: calc(22px + 0.5vw) auto calc(11px + 0.5vw);
+  }
+}
+
+@media screen and (min-width:768px) {
+  .serravalle__logo {
+    margin: calc(47px + 1.5vw) auto calc(25px + 1.5vw);
+  }
+}
+
+@media screen and (width:1440px) {
+  .serravalle__logo {
+    width: 708px;
+    margin: 97px auto 47px;
+  }
+}
+
+@media screen and (min-width:1441px) {
+  .serravalle__logo {
+    margin: calc(97px + 1vw) auto 47px;
+  }
 }

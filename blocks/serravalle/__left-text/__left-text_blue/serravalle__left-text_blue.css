@@ -1,8 +1,30 @@
 .serravalle__left-text_blue {
   background: #2B6BB2;
-  padding-top: 5px;
-  padding-bottom: 6px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   margin-bottom: 13px;
+}
+
+@media screen and (min-width:425px) {
+  .serravalle__left-text_blue {
+    margin-bottom: 6px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .serravalle__left-text_blue {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (width:1440px) {
+  .serravalle__left-text_blue {
+    margin-bottom: 65px;
+  }
+}
+
+@media screen and (min-width:1441px) {
+  .serravalle__left-text_blue {
+    margin-bottom: calc(65px + 1vw);
+  }
 }

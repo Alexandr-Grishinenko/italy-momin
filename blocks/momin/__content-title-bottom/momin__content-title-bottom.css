@@ -14,3 +14,39 @@
   border: 1px solid #FFFFFF;
   border-radius: 100px;
 }
+
+@media screen and (min-width:425px) {
+  .momin__content-title-bottom {
+    font-size: calc(10px + 0.5vw);
+    line-height: calc(12px + 0.5vw);
+    margin-bottom: calc(8px + 0.5vw);
+    padding: calc(3px + 0.5vw) calc(16px + 0.5vw);
+  }
+}
+
+@media screen and (min-width:768px) {
+  .momin__content-title-bottom {
+    font-size: calc(17px + 1vw);
+    line-height: calc(20px + 1vw);
+    margin-bottom: calc(12px + 0.5vw);
+    padding: calc(3px + 1vw) calc(16px + 1vw);
+  }
+}
+
+@media screen and (width:1440px) {
+  .momin__content-title-bottom {
+    font-size: 35px;
+    line-height: 41px;
+    margin-bottom: 40px;
+    padding: 10px 80px;
+  }
+}
+
+@media screen and (min-width:1441px) {
+  .momin__content-title-bottom {
+    font-size: calc(35px + 0.5vw);
+    line-height: calc(41px + 0.5vw);
+    margin-bottom: 40px;
+    padding: 10px 80px;
+  }
+}

@@ -3,3 +3,34 @@
   height: 16px;
   margin-left: 20px;
 }
+
+@media screen and (min-width: 425px) {
+  .logo {
+    width: calc(93px + 1vw);
+    height: calc(16px + 1vw);
+    margin-left: calc(20px + 1vw);
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .logo {
+    width: calc(93px + 3vw);
+    height: calc(16px + 3vw);
+  }
+}
+
+@media screen and (width:1440px) {
+  .logo {
+    width: 356px;
+    height: 59px;
+    margin-left: 74px;
+  }
+}
+
+@media screen and (min-width:1441px) {
+  .logo {
+    width: calc(356px + 2vw);
+    height: calc(59px + 2vw);
+    margin-left: calc(74px + 1vw);
+  }
+}

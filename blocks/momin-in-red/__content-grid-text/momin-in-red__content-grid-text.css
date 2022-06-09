@@ -13,3 +13,31 @@
   margin: 0;
   /* width: min-content; */
 }
+
+@media screen and (min-width:425px) {
+  .momin-in-red__content-grid-text {
+    font-size: calc(8px + 0.5vw);
+    line-height: calc(8px + 0.5vw);
+  }
+}
+
+@media screen and (min-width:768px) {
+  .momin-in-red__content-grid-text {
+    font-size: calc(12px + 0.5vw);
+    line-height: calc(12px + 0.5vw);
+  }
+}
+
+@media screen and (width:1440px) {
+  .momin-in-red__content-grid-text {
+    font-size: 25px;
+    line-height: 25px;
+  }
+}
+
+@media screen and (min-width:1441px) {
+  .momin-in-red__content-grid-text {
+    font-size: calc(25px + 0.5vw);
+    line-height: calc(25px + 0.5vw);
+  }
+}

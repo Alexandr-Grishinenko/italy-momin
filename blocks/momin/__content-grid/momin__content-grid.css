@@ -8,3 +8,27 @@
   border-bottom: 1px solid #fff;
   padding-bottom: 30px;
 }
+
+@media screen and (min-width:425px) {
+  .momin__content-grid {
+    padding-bottom: calc(30px + 0.5vw);
+  }
+}
+
+@media screen and (min-width:768px) {
+  .momin__content-grid {
+    padding-bottom: calc(40px + 0.5vw);
+  }
+}
+
+@media screen and (width:1440px) {
+  .momin__content-grid {
+    padding-bottom: 123px;
+  }
+}
+
+@media screen and (min-width:1441px) {
+  .momin__content-grid {
+    padding-bottom: calc(123px + 0.5vw);
+  }
+}
